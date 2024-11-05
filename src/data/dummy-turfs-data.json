@@ -1,0 +1,85 @@
+{
+    "cricketTurfs": [
+      {
+        "id": 1,
+        "name": "Champion's Turf",
+        "location": {
+          "city": "Mumbai",
+          "address": "123 Stadium Road, Andheri West"
+        },
+        "rating": 4.7,
+        "description": "Spacious turf with a scenic view and perfect pitch.",
+        "media": [
+          { "type": "image", "url": "https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "video", "url": "https://videos.pexels.com/video-files/8940719/8940719-uhd_2560_1440_25fps.mp4" },
+          { "type": "image", "url": "https://images.pexels.com/photos/19231000/pexels-photo-19231000/free-photo-of-player.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "image", "url": "https://images.pexels.com/photos/10469894/pexels-photo-10469894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Striker's Arena",
+        "location": {
+          "city": "Bangalore",
+          "address": "45 Sports Complex, Koramangala"
+        },
+        "description": "Spacious turf with a scenic view and perfect pitch.",
+        "rating": 4.5,
+        "media": [
+          { "type": "image", "url": "https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "video", "url": "https://videos.pexels.com/video-files/8940719/8940719-uhd_2560_1440_25fps.mp4" },
+          { "type": "image", "url": "https://images.pexels.com/photos/19231000/pexels-photo-19231000/free-photo-of-player.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "image", "url": "https://images.pexels.com/photos/10469894/pexels-photo-10469894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "All Rounder's Ground",
+        "location": {
+          "city": "Chennai",
+          "address": "88 Sports Street, T Nagar"
+        },
+        "description": "Spacious turf with a scenic view and perfect pitch.",
+        "rating": 4.6,
+        "media": [
+          { "type": "image", "url": "https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "video", "url": "https://videos.pexels.com/video-files/8940719/8940719-uhd_2560_1440_25fps.mp4" },
+          { "type": "image", "url": "https://images.pexels.com/photos/19231000/pexels-photo-19231000/free-photo-of-player.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "image", "url": "https://images.pexels.com/photos/10469894/pexels-photo-10469894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Boundary Bashers",
+        "location": {
+          "city": "Pune",
+          "address": "200 Field Avenue, Baner"
+        },
+        "description": "Spacious turf with a scenic view and perfect pitch.",
+        "rating": 4.4,
+        "media": [
+          { "type": "image", "url": "https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "video", "url": "https://videos.pexels.com/video-files/8940719/8940719-uhd_2560_1440_25fps.mp4" },
+          { "type": "image", "url": "https://images.pexels.com/photos/19231000/pexels-photo-19231000/free-photo-of-player.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "image", "url": "https://images.pexels.com/photos/10469894/pexels-photo-10469894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "PowerPlay Turf",
+        "location": {
+          "city": "Hyderabad",
+          "address": "76 Cricket Lane, Banjara Hills"
+        },
+        "description": "Spacious turf with a scenic view and perfect pitch.",
+        "rating": 4.8,
+        "media": [
+          { "type": "image", "url": "https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "video", "url": "https://videos.pexels.com/video-files/8940719/8940719-uhd_2560_1440_25fps.mp4" },
+          { "type": "image", "url": "https://images.pexels.com/photos/19231000/pexels-photo-19231000/free-photo-of-player.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+          { "type": "image", "url": "https://images.pexels.com/photos/10469894/pexels-photo-10469894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" }
+        ]
+      }
+    ]
+  }
+  
