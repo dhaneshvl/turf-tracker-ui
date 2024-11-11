@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:9000/api/v1/turf-slots";
+export const API_BASE_URL = __API_BASE_URL__;
+
+const BASE_URL = `${API_BASE_URL}/api/v1/turf-slots`;
 
 class TurfSlotService {
   getTurfSlots(turfId,selectedDate){

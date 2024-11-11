@@ -1,4 +1,6 @@
-const BASE_URL = 'http://localhost:9000/payment';
+export const API_BASE_URL = __API_BASE_URL__;
+
+const BASE_URL = `${API_BASE_URL}/api/v1/payment`;
 
 const initiatePayment = async (turfId, totalPrice, selectedSlots,slotDate) => {
   const slotIds = selectedSlots.map(slot => slot.id).join(",");
@@ -89,7 +91,7 @@ const handleBooking = async (turfId, totalPrice, selectedSlots, slotDate, naviga
             });
           } catch (error) {
             console.error('Error completing payment:', error);
-            alert('Payment failed to complete on backend. Please try again.');
+            console.info('Payment failed to complete on backend. Please try again.');
           }
         },
         prefill: {
@@ -112,7 +114,7 @@ const handleBooking = async (turfId, totalPrice, selectedSlots, slotDate, naviga
               };
 
               await declinePayment(declineDetails);
-              alert('Payment was not completed. Please try again.');
+              console.info('Payment was not completed. Please try again.');
             } catch (error) {
               console.error('Error notifying backend of payment cancellation:', error);
             }
@@ -124,11 +126,10 @@ const handleBooking = async (turfId, totalPrice, selectedSlots, slotDate, naviga
       const rzp = new window.Razorpay(options);
       rzp.open();
     } else {
-      alert('Failed to initiate transaction. Please try again.');
+      console.info('Failed to initiate transaction. Please try again.');
     }
   } catch (error) {
     console.error('Error initiating transaction:', error);
-    alert('Error initiating transaction. Please try again.');
   }
 };
 
