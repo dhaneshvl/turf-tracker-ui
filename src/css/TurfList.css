@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Mobile and Small Tablets */
+@media (max-width: 640px) {
+  .turf-card {
+    max-width: 100%;
+    padding: 8px;
+  }
+
+  .slider-img {
+    height: 220px; /* Adjust slider images for small screens */
+  }
+
+  .turf-name {
+    font-size: 1.5rem; /* Adjust name size */
+  }
+
+  .turf-location {
+    font-size: 1rem; /* Adjust location font size */
+  }
+
+  .rating {
+    font-size: 1.25rem;
+  }
+
+  .book-btn {
+    padding: 1rem; /* Adjust button padding for mobile */
+  }
+}
+
+/* Larger Screens (Tablet and above) */
+@media (min-width: 640px) and (max-width: 1024px) {
+  .turf-card {
+    max-width: 48%;
+    margin: 0 10px 20px 10px;
+  }
+
+  .slider-img {
+    height: 280px; /* Adjust slider images for tablets */
+  }
+
+  .turf-name {
+    font-size: 2rem; /* Adjust name size */
+  }
+
+  .turf-location {
+    font-size: 1.125rem; /* Adjust location font size */
+  }
+
+  .rating {
+    font-size: 1.5rem;
+  }
+
+  .book-btn {
+    padding: 1.25rem; /* Adjust button padding */
+  }
+}
+
+/* Larger Screens (Desktop and above) */
+@media (min-width: 1024px) {
+  .turf-card {
+    max-width: 30%;
+    margin: 0 20px 40px 20px;
+  }
+
+  .slider-img {
+    height: 350px; /* Adjust slider images for desktop */
+  }
+
+  .turf-name {
+    font-size: 2.5rem; /* Larger name size for desktop */
+  }
+
+  .turf-location {
+    font-size: 1.25rem; /* Larger location font size for desktop */
+  }
+
+  .rating {
+    font-size: 1.75rem;
+  }
+
+  .book-btn {
+    padding: 1.5rem; /* Larger button padding for desktop */
+  }
+}
+
+/* Ensure the container is wide enough */
+@media (min-width: 1024px) {
+  .max-w-screen-xl {
+    max-width: 1280px; /* Ensure the container doesn't stretch beyond screen width */
+  }
+}

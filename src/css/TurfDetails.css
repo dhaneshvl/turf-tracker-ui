@@ -1,0 +1,97 @@
+/* Default mobile-first styles */
+.turf-container {
+    padding: 16px;
+  }
+  
+  .turf-media {
+    height: 200px; /* Default media height for mobile */
+  }
+  
+  .turf-media img,
+  .turf-media video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .turf-name {
+    font-size: 1.5rem;
+  }
+  
+  .turf-location {
+    font-size: 1rem;
+  }
+  
+  .book-btn {
+    padding: 12px;
+  }
+  
+  /* Tablet Styles (min-width: 640px) */
+  @media (min-width: 640px) {
+    .turf-container {
+      padding: 24px;
+    }
+  
+    .turf-media {
+      height: 300px; /* Medium screen sizes */
+    }
+  
+    .turf-name {
+      font-size: 2rem; /* Slightly larger font for tablets */
+    }
+  
+    .turf-location {
+      font-size: 1.25rem;
+    }
+  
+    .book-btn {
+      padding: 16px;
+    }
+  }
+  
+  /* Desktop Styles (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .turf-container {
+      padding: 32px;
+    }
+  
+    .turf-media {
+      height: 400px; /* Larger media for desktops */
+    }
+  
+    .turf-name {
+      font-size: 2.5rem; /* Larger font for desktops */
+    }
+  
+    .turf-location {
+      font-size: 1.5rem;
+    }
+  
+    .book-btn {
+      padding: 20px;
+    }
+  }
+  
+  /* Extra Large Desktop Styles (min-width: 1280px) */
+  @media (min-width: 1280px) {
+    .turf-container {
+      padding: 40px;
+    }
+  
+    .turf-media {
+      height: 500px; /* Extra large media for big desktops */
+    }
+  
+    .turf-name {
+      font-size: 3rem;
+    }
+  
+    .turf-location {
+      font-size: 1.75rem;
+    }
+  
+    .book-btn {
+      padding: 24px;
+    }
+  }
+  

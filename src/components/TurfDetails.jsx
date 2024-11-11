@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { useNavigate, useParams } from "react-router-dom";
 import TurfService from "./TurfService";
 import Loader from "./Loader";
+import '../css/TurfDetails.css'; 
 
 const TurfDetails = () => {
   const { turfId } = useParams();
@@ -44,7 +45,7 @@ const TurfDetails = () => {
   if (!turf) return <p>Turf data not available</p>;
 
   return (
-    <div className="min-h-screen bg-black p-8">
+    <div className="min-h-screen bg-black turf-container">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
           <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden border border-gray-700">
@@ -52,7 +53,7 @@ const TurfDetails = () => {
               <Slider {...settings}>
                 {turf.media && turf.media.length > 0 ? (
                   turf.media.map((item, index) => (
-                    <div key={index} className="w-full h-64">
+                    <div key={index} className="w-full turf-media">
                       {item.type === 'video' ? (
                         <video
                           src={item.url}
@@ -75,20 +76,20 @@ const TurfDetails = () => {
                   <p className="text-white text-center">No media available</p>
                 )}
               </Slider>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end p-4 sm:p-6">
                 <div className="text-white">
-                  <h2 className="text-4xl font-bold">{turf.name}</h2>
-                  <p className="text-lg">{turf.location.city}</p>
+                  <h2 className="turf-name font-bold">{turf.name}</h2>
+                  <p className="turf-location">{turf.location.city}</p>
                 </div>
               </div>
             </div>
-            <div className="p-6">
-              <h3 className="text-2xl font-bold text-gray-300 mb-4">Details</h3>
+            <div className="p-4 sm:p-6">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-300 mb-4">Details</h3>
               <p className="text-gray-400 mb-4">{turf.location.address}</p>
               <p className="text-gray-400 mb-4">{turf.description}</p>
               <button
                 onClick={() => navigate(`/book/${turfId}`)}
-                className="w-full bg-red-600 text-white py-2 rounded-lg shadow-md hover:bg-red-700 transition-colors"
+                className="w-full bg-red-600 text-white py-2 sm:py-3 rounded-lg shadow-md hover:bg-red-700 transition-colors book-btn"
               >
                 Book Slot
               </button>

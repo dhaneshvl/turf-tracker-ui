@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaClock } from 'react-icons/fa';
+import '../css/SlotSelector.css'; // Import custom CSS
 
 const SlotSelector = ({ turfSlots, selectedSlots, handleSlotSelect }) => {
   return (

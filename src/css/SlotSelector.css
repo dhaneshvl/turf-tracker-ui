@@ -1,0 +1,62 @@
+/* Default mobile-first styles */
+.slot-selector-container {
+    padding: 16px;
+  }
+  
+  .slot-button {
+    width: 100%;
+    min-height: 50px;
+    font-size: 14px; /* Smaller font size for mobile */
+    line-height: 1.5;
+  }
+  
+  .slot-button .fa-clock {
+    font-size: 18px; /* Icon size for mobile */
+  }
+  
+  @media (min-width: 640px) {
+    /* Tablet styles */
+    .slot-selector-container {
+      padding: 24px;
+    }
+  
+    .slot-button {
+      font-size: 16px; /* Larger font for tablets */
+    }
+  
+    .slot-button .fa-clock {
+      font-size: 22px; /* Larger icon for tablets */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Medium screens (tablets in landscape or small desktops) */
+    .slot-selector-container {
+      padding: 32px;
+    }
+  
+    .slot-button {
+      font-size: 18px; /* Larger font for medium screens */
+    }
+  
+    .slot-button .fa-clock {
+      font-size: 24px; /* Icon size for medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Large screens (desktops) */
+    .slot-selector-container {
+      padding: 40px;
+    }
+  
+    .slot-button {
+      font-size: 20px; /* Larger font for large screens */
+      min-height: 60px; /* Larger button for larger screens */
+    }
+  
+    .slot-button .fa-clock {
+      font-size: 28px; /* Larger icon for large screens */
+    }
+  }
+  
